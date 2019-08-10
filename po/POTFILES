@@ -1,0 +1,7 @@
+data/com.github.nahuelwexd.SchoolPlanner.desktop.in
+data/com.github.nahuelwexd.SchoolPlanner.appdata.xml.in
+data/com.github.nahuelwexd.SchoolPlanner.gschema.xml
+src/window.ui
+src/main.vala
+src/window.vala
+

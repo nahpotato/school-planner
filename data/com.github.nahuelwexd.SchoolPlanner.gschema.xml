@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="school-planner">
+	<schema id="com.github.nahuelwexd.SchoolPlanner" path="/com/github/nahuelwexd/SchoolPlanner/">
+	</schema>
+</schemalist>

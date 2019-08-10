@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=school-planner
+Exec=school-planner
+Terminal=false
+Type=Application
+Categories=GTK;
+StartupNotify=true
