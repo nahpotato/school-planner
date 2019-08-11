@@ -18,23 +18,27 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-public class SchoolPlanner.App : Gtk.Application {
+namespace SchoolPlanner {
 
-    public App () {
-        Object (
-            application_id: "com.github.nahuelwexd.SchoolPlanner",
-            flags: ApplicationFlags.FLAGS_NONE
-        );
-    }
+    public class App : Gtk.Application {
 
-    public override void activate () {
-        var window = this.active_window;
-
-        if (window == null) {
-            window = new SchoolPlanner.MainWindow (this);
-            window.show_all ();
+        public App () {
+            Object (
+                application_id: "com.github.nahuelwexd.SchoolPlanner",
+                flags: ApplicationFlags.FLAGS_NONE
+            );
         }
 
-        window.present ();
+        public override void activate () {
+            var window = this.active_window;
+
+            if (window == null) {
+                window = new MainWindow (this);
+                window.show_all ();
+            }
+
+            window.present ();
+        }
+
     }
 }

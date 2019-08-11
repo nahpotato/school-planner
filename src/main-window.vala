@@ -18,12 +18,17 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-[GtkTemplate (ui = "/com/github/nahuelwexd/SchoolPlanner/ui/main-window.ui")]
-public class SchoolPlanner.MainWindow : Gtk.ApplicationWindow {
+using Gtk;
 
-    public MainWindow (Gtk.Application app) {
-        Object (
-            application: app
-        );
+namespace SchoolPlanner {
+
+    [GtkTemplate (ui = "/com/github/nahuelwexd/SchoolPlanner/ui/main-window.ui")]
+    public class MainWindow : ApplicationWindow {
+
+        public MainWindow (Gtk.Application app) {
+            Object (
+                application: app
+            );
+        }
     }
 }
