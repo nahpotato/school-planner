@@ -40,5 +40,8 @@ namespace SchoolPlanner {
             window.present ();
         }
 
+        public static int main (string[] args) {
+            return new SchoolPlanner.App ().run (args);
+        }
     }
 }

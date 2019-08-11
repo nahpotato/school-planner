@@ -1,6 +1,5 @@
 school_planner_sources = [
     'app.vala',
-    'main.vala',
     'main-window.vala',
 ]
 
